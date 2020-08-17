@@ -217,7 +217,7 @@ class JoVA():
 
         self.test_cost_list.append(Cost)
 
-        [precision, recall, f_score, NDCG] = evaluate.test_model_all(Decoder, self.test_R, self.train_R)
+        evaluate.test_model_all(Decoder, self.test_R, self.train_R)
 
         print("Testing //", "Epoch %d //" % (itr), " Total cost = {:.2f}".format(Cost),
               "Elapsed time : %d sec" % (time.time() - start_time))
