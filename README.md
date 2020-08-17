@@ -10,7 +10,7 @@ Joint variational autoencoder (JoVA) is a top-k  recommendor system with  implic
 - numpy == 1.16.6
 
 # Dataset 
-- Movielens-1M
+- Movielens
 - Yelp
 - Pinterest
 
